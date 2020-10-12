@@ -40,7 +40,7 @@ print("成功打开")
 
 
 # set env variable for data
-os.environ["L5KIT_DATA_FOLDER"] = "D:\kaggle\lyft-motion-prediction-autonomous-vehicles"
+os.environ["L5KIT_DATA_FOLDER"] = "../input/lyft-motion-prediction-autonomous-vehicles"
 dm = LocalDataManager(None)
 # get config
 cfg = load_config_data("./agent_motion_config.yaml")
